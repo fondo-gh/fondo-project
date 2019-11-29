@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="width-500px center mt100 border p40">
+        <h1 class="text-center">Fondo</h1>
+        <div class="width-300px center">
+          <p class="text-center color-ash">
+            Fill the form below to register on Fondo
+          </p>
+        </div>
+
+        <hr class="mt30" />
+
+        <form>
+          <div class="form-group mt20">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Full name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Confirm password"
+              required
+            />
+          </div>
+
+          <div class="form-group mt40">
+            <button
+              class="btn btn-primary btn-lg btn-block"
+              onclick="window.location.href = 'verify-account.html'"
+            >
+              Sign up
+            </button>
+
+            <div class="width-300px center">
+              <p class="text-center mt20 color-ash text-14">
+                By signing up, you agree to our Terms of use and Privacy Policy
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

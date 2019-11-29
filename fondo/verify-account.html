@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="width-500px center mt100 border p40">
+        <h3 class="text-center">Verify your account</h2>
+        <div class="width-400px center">
+          <p class="text-center color-ash">
+            A verification code have been sent to your email
+          </p>
+        </div>
+
+        <hr class="mt30" />
+
+        <form>
+          <div class="form-group mt20">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Verification code"
+              required
+            />
+          </div>
+
+          <div class="form-group mt30">
+            <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="window.location.href = 'account-verified-backer.html'">
+              Verify
+            </button>
+
+            <div class="mt20">
+                <a  href="#">
+                    I have not received any email
+                </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

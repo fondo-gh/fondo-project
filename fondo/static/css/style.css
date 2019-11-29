@@ -1,0 +1,174 @@
+body {
+  background-color: #fafafa;
+}
+
+a.btn {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mt60 {
+  margin-top: 60px;
+}
+
+.mt70 {
+  margin-top: 70px;
+}
+
+.mt80 {
+  margin-top: 80px;
+}
+
+.mt90 {
+  margin-top: 90px;
+}
+
+.mt100 {
+  margin-top: 100px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.p30 {
+  padding: 30px;
+}
+
+.p40 {
+  padding: 40px;
+}
+
+.width-700px {
+  width: 700px;
+}
+
+.width-600px {
+  width: 600px;
+}
+
+.width-500px {
+  width: 500px;
+}
+
+.width-400px {
+  width: 400px;
+}
+
+.width-300px {
+  width: 300px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border {
+  border-color: #ccc;
+}
+
+.color-ash {
+  color: #787777;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-17 {
+  font-size: 17px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.text-19 {
+  font-size: 19px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.project-image {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-detail-box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-detail-image {
+  height: 380px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-center{
+  text-align: center;
+}
